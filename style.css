@@ -207,26 +207,59 @@ section {
     border: 2px solid rgb(148, 132, 132);
     border-radius: 30px;
 }
-
+.testimonials{
+    background: #0c0c0c;
+    padding: 40px;
+    font-size: 13px;
+    font-weight: 300;
+    border-radius: 10px;
+    transition: background 0.5s, transform 0.5s ease;
+}
 .testimonials  img {
    width: 65px;
     border-radius: 100px;
-
-
 }
 
 .testimonials  {
-     color: rgb(68, 16, 95);
+     color: rgba(250, 249, 251, 0.841);
 }
- 
+.testimonials h3{
+    color: #fff;
+    font-size: 30px;
+}
+.testimonials:hover{
+    background: #2e2e2f;
+    transform: translateY(-10px);
+}
 #reviews h2 {
     font-size: 55px;
     font-weight: 900;
-    color:#400e6e;
+    color:#9858d3;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: #000000;
 }
-/*------contacts-----*/
+footer {
+    margin-top: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: rgb(76, 72, 83) ;
+}
+
+#footer ul.list-unstyled li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#footer ul.list-unstyled li:hover a {
+    color:#400e6e;
+    
+}
+.btn-outline-light {
+    border-color: #FFF;
+    color: #FFF;
+    border-radius: 0;
+}
+/*------contacts-----
 .contact-left{
     margin-top: 50px;
     flex-basis: 35%;
@@ -282,4 +315,4 @@ form .btn2{
     margin-top: 20px;
     cursor: pointer;
 
-}
+} ---*/
