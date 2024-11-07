@@ -13,10 +13,11 @@ body{
 .container ul li{
     display: inline-block;
     list-style-type: none;
-    margin: 10px 10px;
+    margin: 10px 20px;
 }
 .container ul li a{
     font-size: 18px;
+    color: #fff;
     background-color:none;
 }
 #banner {
