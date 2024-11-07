@@ -9,7 +9,19 @@ html{
 }
 body{
     background-color: #080808;
+}
+.container a{
     color: #fff;
+}
+.container ul li{
+    display: inline-block;
+    list-style-type: none;
+    margin: 10px 10px;
+}
+.container ul li a{
+    font-size: 18px;
+    color: #FFF;
+    background-color:none;
 }
 #banner {
     height: 90vh;
