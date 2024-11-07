@@ -10,9 +10,6 @@ html{
 body{
     background-color: #080808;
 }
-.container a{
-    color: #fff;
-}
 .container ul li{
     display: inline-block;
     list-style-type: none;
