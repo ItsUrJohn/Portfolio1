@@ -41,7 +41,7 @@ body{
     bottom: -6px;
     width: 100%;
     height: 3px;
-    background: #fff;
+    background: #d7d6e3;
     border-radius: 5px;
     transform: scaleX(0);
     transition: transform 0.5s;
@@ -167,16 +167,23 @@ section {
 }
 .services-list div i{
     font-size: 35px;
+    color: #fff;
     margin-bottom: 30px;
 }
 .services-list div h2{
     font-size: 30px;
+    color: #fff;
     font-weight: 500;
     margin-bottom: 15px;
 }
+.services-list div p{
+    font-size: 15px;
+    color: #fff;
+    font-weight: 500;
+}
 .services-list div a{
     text-decoration: none;
-    color: #0c0c0c;
+    color: #f5f0f0;
     font-size: 20px;
     margin-top: 20px;
     display: inline-flex;
