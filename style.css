@@ -256,6 +256,11 @@ section {
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: #000000;
 }
+#reviews p{
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;    
+}
 #ctaaa{
     margin-top: 50px;
     height: 70vh;
@@ -264,7 +269,43 @@ section {
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
-
+.faq-section{
+    max-width: 800px;
+    margin: auto;
+}
+.accordion-item{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    border-radius: 0 !important;
+}
+.accordion-button{
+    background-color: #fff;
+    border-bottom: 1px solid #4e4a4a;
+    border-radius: 0 !important;
+    padding: 15px;
+    font-size: 15px;
+    font-weight: 500;
+    color: #d3d3eb;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+.accordion-body{
+    border-left: 3px solid #171617;
+    padding: 10px 15px;
+    margin-left: 0;
+    background-color: #caa1a1;
+}
+.accordion-button:not(.collapsed){
+    background-color: #c6c6f1;
+    color: #fff;
+}
+.accordion-button:hover{
+    background-color: #87848d;
+    color: #fff;
+}
+#faq{
+    background-color: #141413;
+}
 footer {
     margin-top: 50px;
     padding-top: 50px;
